@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .h1 {
+        font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype,
+          Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
+        color: rgb(227, 204, 183);
+        transition-duration: 0.2s;
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        font-size: 60px;
+      }
+
+      .heading {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+
+      .heading:hover {
+        cursor: pointer;
+      }
+
+      .img-h1 {
+        object-fit: cover;
+        height: 300px;
+        width: 100%;
+        transition: 0.3s;
+        opacity: 0.3;
+        lighting-color: #64564d;
+        display: table;
+        color: #64564d;
+      }
+
+      body {
+        font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype,
+          Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
+        background-color: #ecdec9;
+        opacity: 0.8;
+        background-image: radial-gradient(#504742 0.65px, transparent 0.65px),
+          radial-gradient(#59514b 0.65px, #ab9c87 0.65px);
+        background-size: 26px 26px;
+        background-position: 0 0, 13px 13px;
+      }
+
+      .menu-all {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .menu {
+        display: block;
+        width: 100px;
+        height: 50px;
+        border: none;
+        background-color: #c5b4a9;
+        font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype,
+          Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+        opacity: 0.5;
+        transition: 0.2s;
+      }
+
+      .menu-head {
+        font-size: 30px;
+        color: #ecdec9;
+        font-weight: bold;
+        font-style: italic;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+      }
+
+      .menu:hover {
+        cursor: pointer;
+        opacity: 1;
+      }
+
+      /* unvisited link */
+      a:link {
+        color: #3d3232;
+        text-decoration: none;
+      }
+
+      /* visited link */
+      a:visited {
+        color: #3d3232;
+        text-decoration: none;
+      }
+
+      /* mouse over link */
+      a:hover {
+        color: rgb(140, 125, 107);
+      }
+
+      /* selected link */
+      a:active {
+        color: whitesmoke;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      img {
+        width: 500px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    </style>
+
+    <div class="heading">
+      <h1 class="h1">Uni</h1>
+      <div><img src="./van long.jpg" class="img-h1" /></div>
+    </div>
+  </head>
+  <body>
+    <div class="menu-all">
+      <div>
+        <button class="menu"><a href="/index.html">Home</a></button>
+      </div>
+      <div>
+        <button class="menu">
+          <a href="/A Level/main.html">A Levels</a>
+        </button>
+      </div>
+      <div>
+        <button class="menu"><a href="/SPM/main.html">SPM</a></button>
+      </div>
+      <div>
+        <button class="menu">
+          <a href="/Music/main.html">Music</a>
+        </button>
+      </div>
+      <div>
+        <button class="menu">
+          <a href="/MBTI/main.html">MBTI</a>
+        </button>
+      </div>
+      <div>
+        <button class="menu"><a href="/Kat/main.html">Kat</a></button>
+      </div>
+    </div>
+
+    <h2>
+      This page will be empty for now as the author have not made a uni decision
+      yet. Please stay tuned!
+    </h2>
+
+    <h2>You may: <a href="/index.html">visit other pages</a></h2>
+
+    <p>This is Uni the Cat btw :3 (tap the pic)</p>
+
+    <a href="https://www.instagram.com/unico_uniuni/" target="_blank"
+      ><img src="/Kat/cat/uni neko.jpg"
+    /></a>
+  </body>
+</html>
