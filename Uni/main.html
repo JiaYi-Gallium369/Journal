@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
       .h1 {
-        font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;;
+        font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype,
+          Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
         color: rgb(227, 204, 183);
         transition-duration: 0.2s;
         position: absolute;
@@ -39,7 +40,8 @@
       }
 
       body {
-        font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;;
+        font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype,
+          Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
         background-color: #ecdec9;
         opacity: 0.8;
         background-image: radial-gradient(#504742 0.65px, transparent 0.65px),
@@ -55,11 +57,12 @@
       }
       .menu {
         display: block;
-        width: 150px;
+        width: 100px;
         height: 50px;
         border: none;
         background-color: #c5b4a9;
-        font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;;
+        font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype,
+          Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
         font-style: italic;
         font-weight: bold;
         font-size: 25px;
@@ -85,13 +88,13 @@
 
       /* unvisited link */
       a:link {
-        color: #3d3232;
+        color: #945656;
         text-decoration: none;
       }
 
       /* visited link */
       a:visited {
-        color: #3d3232;
+        color: #905353;
         text-decoration: none;
       }
 
@@ -105,8 +108,17 @@
         color: whitesmoke;
       }
 
-      h2 {
+      h1 {
         text-align: center;
+        color: #574a32;
+        font-style: italic;
+        font-size: 45px;
+      }
+
+      h2,
+      h3 {
+        text-align: center;
+        font-style: italic;
       }
 
       img {
@@ -115,6 +127,16 @@
 
       p {
         font-size: 20px;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .cards {
+        flex: 1;
+        margin: 50px;
+        text-align: center;
       }
     </style>
 
@@ -126,42 +148,65 @@
   <body>
     <div class="menu-all">
       <div>
-        <button class="menu"><a href="/Page/">Home</a></button>
+        <button class="menu"><a href="/index.html">Home</a></button>
       </div>
       <div>
         <button class="menu">
-          <a href="/Page/A Level/main.html">A Levels</a>
+          <a href="/A Level/main.html">A Levels</a>
         </button>
       </div>
       <div>
-        <button class="menu"><a href="/Page/SPM/main.html">SPM</a></button>
+        <button class="menu"><a href="/SPM/main.html">SPM</a></button>
       </div>
       <div>
         <button class="menu">
-          <a href="/Page/Music/main.html">Music</a>
+          <a href="/Music/main.html">Music</a>
         </button>
       </div>
       <div>
         <button class="menu">
-          <a href="/Page/MBTI/main.html">MBTI</a>
+          <a href="/MBTI/main.html">MBTI</a>
         </button>
       </div>
       <div>
-        <button class="menu"><a href="/Page/Kat/main.html">Kat</a></button>
+        <button class="menu"><a href="/Kat/main.html">Kat</a></button>
       </div>
     </div>
 
+    <style>
+      .uni-pic {
+        width: 500px;
+        transition: 0.5s;
+        opacity: 0.6;
+      }
+      .uni-pic:hover {
+        opacity: 1;
+      }
+    </style>
+    <h1>Computing/Computer Science</h1>
     <h2>
-      This page will be empty for now as the author have not made a uni decision
-      yet. Please stay tuned!
+      Tap on the university logos below for a detailed process of my application
+      & tips for scholarship!
     </h2>
-
-    <h2>You may: <a href="/Page/">visit other pages</a></h2>
-
-    <p>This is Uni the Cat btw :3 (tap the pic) (not my cat tho but it's kewt :3)</p>
-
-    <a href="https://www.instagram.com/unico_uniuni/" target="_blank"
-      ><img src="./uni neko.jpg"
-    /></a>
+    <h1>
+      Click <a href="./MBTI.html">here</a> for tips to Prepare Your Uni
+      Interview!
+    </h1>
+    <div class="row">
+      <div class="cards">
+        <a href="./NUS.html"><img src="./NUS.jpg" class="uni-pic" /></a>
+      </div>
+      <div class="cards">
+        <a href="./Imperial.html"
+          ><img src="./Imperial.jpg" class="uni-pic"
+        /></a>
+      </div>
+      <div class="cards">
+        <a href="./NTU.html"><img src="./ntu.png" class="uni-pic" /></a>
+      </div>
+      <div class="cards">
+        <a href="./HKU.html"><img src="./hku.jpg" class="uni-pic" /></a>
+      </div>
+    </div>
   </body>
 </html>
