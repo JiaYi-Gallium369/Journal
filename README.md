@@ -2,29 +2,27 @@
 
 Welcome to my portfolio! Here you'll find a collection of my projects in software development, graphic design and content creation.
 
-## Design Projects
+## Software Development Projects
 
 ### [NUS Orbital Project](#)
 * **Description:** A software platform that allows users to create music using coding blocks, combining artistic expression and computational thinking.
-* **Technologies:** React, CSS, Vercel, Django, Railway, Render
+* **Technologies:** React, Javascript, CSS, Vercel, Django, Railway, Render
 * **Link:** [View Project](https://algorhythm-milestone2.vercel.app/)
 
 ### [Personal Website](#)
-* **Description:** Created a personal website to sell second hand items.
+* **Description:** A personal website to sell second hand items.
 * **Technologies:** React, CSS, Firebase
-* **Link:** [View Project](https://2ndhand-tawny.vercel.app/)
+* **Link:** [View Project](https://2ndhand-tawny.vercel.app/) (Link not accessible through NUS WiFi)
 
-## Product Development Projects
-
-### [Project Title - e.g., Supabase-integrated Telegram Bot](#)
-* **Description:** Developed a Telegram bot with features like saving, downloading, uploading, resuming, and deleting user progress, integrated with Supabase.
+### [Freshies' Helper Telegram Bot](#)
+* **Description:** A Telegram bot to assist NUS freshies in accessing 100+ FAQs about hostel application, QET and student pass information.
 * **Technologies:** Python, Supabase, Telegram Bot API
-* **Link:** [View Project](#)
+* **Bot Username:**  @mslfreshies_bot (Click this [link](https://api.render.com/deploy/srv-cptv1pl6l47c7383pcog?key=Cpf6YeHVqFc) to activate the bot before using it.)
 
 ### [Project Title - e.g., Interactive Music Quiz](#)
 * **Description:** A Duolingo-style interactive quiz to test users' musical knowledge, built using React.
 * **Technologies:** React, JavaScript, CSS
-* **Link:** [View Project](#)
+* **Link:** [View Project](https://github.com/JiaYi-Gallium369/ip)
 
 ## Technology Projects
 
