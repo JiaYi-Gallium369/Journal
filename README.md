@@ -1,6 +1,6 @@
 # Jia Yi's Portfolio
 
-Welcome to my portfolio! Here you'll find a collection of my projects in software development, graphic design and content creation.
+Welcome to my portfolio! Here you'll find a collection of my projects in software development, design and content creation.
 
 ## Software Development Projects
 
@@ -19,12 +19,12 @@ Welcome to my portfolio! Here you'll find a collection of my projects in softwar
 * **Technologies:** Python, Supabase, Telegram Bot API
 * **Bot Username:**  @mslfreshies_bot (Click this [link](https://api.render.com/deploy/srv-cptv1pl6l47c7383pcog?key=Cpf6YeHVqFc) to activate the bot before using it.)
 
-### [Project Title - e.g., Interactive Music Quiz](#)
-* **Description:** A Duolingo-style interactive quiz to test users' musical knowledge, built using React.
-* **Technologies:** React, JavaScript, CSS
+### [CS2103T - Software Engineering Project - Task Manager Chatbot](#)
+* **Description:** A todos, deadlines and events manager chatbot.
+* **Technologies:** Java, JavaFX
 * **Link:** [View Project](https://github.com/JiaYi-Gallium369/ip)
 
-## Technology Projects
+## Design Projects
 
 ### [Project Title - e.g., Drag-and-Drop Timeline Tool](#)
 * **Description:** A web tool allowing users to input and edit music-related details on a timeline using drag-and-drop functionality.
